@@ -9,6 +9,8 @@ FROM ubuntu:bionic AS ros2-eloquent
     && apt-get update \
     && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
       ros-eloquent-desktop \
+      python3-colcon-common-extensions \
+      ros-eloquent-rqt* \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
   COPY ./docker/ros_entrypoint.sh /
