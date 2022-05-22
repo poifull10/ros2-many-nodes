@@ -1,0 +1,25 @@
+[0.011s] Invoking command in '/home/hirofuji/workbench/ros2/src/build/test_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hirofuji/workbench/ros2/src/build/test_node -- -j16 -l16
+[0.029s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.152s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.177s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.268s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.305s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.306s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.414s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.497s] -- Configuring done
+[0.504s] -- Generating done
+[0.505s] -- Build files have been written to: /home/hirofuji/workbench/ros2/src/build/test_node
+[0.532s] [ 33%] [32m[1mLinking CXX executable test_node[0m
+[0.633s] [100%] Built target test_node
+[0.641s] Invoked command in '/home/hirofuji/workbench/ros2/src/build/test_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hirofuji/workbench/ros2/src/build/test_node -- -j16 -l16
+[0.661s] Invoking command in '/home/hirofuji/workbench/ros2/src/build/test_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hirofuji/workbench/ros2/src/build/test_node
+[0.666s] -- Install configuration: ""
+[0.666s] CMake Error at cmake_install.cmake:41 (file):
+[0.667s]   file INSTALL cannot find
+[0.667s]   "/home/hirofuji/workbench/ros2/src/build/test_node/CMakeFiles/CMakeRelink.dir/test_node":
+[0.667s]   No such file or directory.
+[0.667s] 
+[0.667s] 
+[0.668s] Invoked command in '/home/hirofuji/workbench/ros2/src/build/test_node' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hirofuji/workbench/ros2/src/build/test_node

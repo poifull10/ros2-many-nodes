@@ -1,0 +1,35 @@
+[0.011s] Invoking command in '/home/hirofuji/workbench/ros2/src/build/test_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hirofuji/workbench/ros2/src/build/test_node -- -j16 -l16
+[0.030s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.044s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.153s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.176s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.178s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.268s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.306s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.307s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.416s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.458s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.500s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.501s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.501s] -- Configured cppcheck include dirs: 
+[0.501s] -- Configured cppcheck exclude dirs and/or files: 
+[0.501s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.501s] -- Configured cpplint exclude dirs and/or files: 
+[0.502s] -- Added test 'lint_cmake' to check CMake code style
+[0.502s] -- Added test 'uncrustify' to check C / C++ code style
+[0.502s] -- Configured uncrustify additional arguments: 
+[0.503s] -- Added test 'xmllint' to check XML markup files
+[0.504s] -- Configuring done
+[0.510s] -- Generating done
+[0.511s] -- Build files have been written to: /home/hirofuji/workbench/ros2/src/build/test_node
+[0.538s] [100%] Built target test_node
+[0.545s] Invoked command in '/home/hirofuji/workbench/ros2/src/build/test_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hirofuji/workbench/ros2/src/build/test_node -- -j16 -l16
+[0.566s] Invoking command in '/home/hirofuji/workbench/ros2/src/build/test_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hirofuji/workbench/ros2/src/build/test_node
+[0.571s] -- Install configuration: ""
+[0.571s] CMake Error at cmake_install.cmake:41 (file):
+[0.571s]   file INSTALL cannot find
+[0.571s]   "/home/hirofuji/workbench/ros2/src/test_node/bin/test_node": No such file
+[0.571s]   or directory.
+[0.572s] 
+[0.572s] 
+[0.572s] Invoked command in '/home/hirofuji/workbench/ros2/src/build/test_node' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hirofuji/workbench/ros2/src/build/test_node

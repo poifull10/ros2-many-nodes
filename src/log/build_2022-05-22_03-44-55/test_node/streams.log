@@ -1,0 +1,23 @@
+[0.011s] Invoking command in '/home/hirofuji/workbench/ros2/src/build/test_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hirofuji/workbench/ros2/src/test_node -DCMAKE_INSTALL_PREFIX=/home/hirofuji/workbench/ros2/src/install/test_node
+[0.059s] -- The C compiler identification is unknown
+[0.101s] -- The CXX compiler identification is unknown
+[0.103s] CMake Error at CMakeLists.txt:2 (project):
+[0.103s]   No CMAKE_C_COMPILER could be found.
+[0.103s] 
+[0.103s]   Tell CMake where to find the compiler by setting either the environment
+[0.103s]   variable "CC" or the CMake cache entry CMAKE_C_COMPILER to the full path to
+[0.103s]   the compiler, or to the compiler name if it is in the PATH.
+[0.103s] 
+[0.104s] 
+[0.104s] CMake Error at CMakeLists.txt:2 (project):
+[0.104s]   No CMAKE_CXX_COMPILER could be found.
+[0.104s] 
+[0.104s]   Tell CMake where to find the compiler by setting either the environment
+[0.104s]   variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+[0.105s]   to the compiler, or to the compiler name if it is in the PATH.
+[0.105s] 
+[0.105s] 
+[0.106s] -- Configuring incomplete, errors occurred!
+[0.106s] See also "/home/hirofuji/workbench/ros2/src/build/test_node/CMakeFiles/CMakeOutput.log".
+[0.106s] See also "/home/hirofuji/workbench/ros2/src/build/test_node/CMakeFiles/CMakeError.log".
+[0.111s] Invoked command in '/home/hirofuji/workbench/ros2/src/build/test_node' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hirofuji/workbench/ros2/src/test_node -DCMAKE_INSTALL_PREFIX=/home/hirofuji/workbench/ros2/src/install/test_node

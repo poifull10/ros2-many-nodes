@@ -1,0 +1,75 @@
+[0.010s] Invoking command in '/home/hirofuji/workbench/ros2/src/build/test_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hirofuji/workbench/ros2/src/test_node -DCMAKE_INSTALL_PREFIX=/home/hirofuji/workbench/ros2/src/install/test_node
+[0.056s] -- The C compiler identification is GNU 9.4.0
+[0.092s] -- The CXX compiler identification is GNU 9.4.0
+[0.097s] -- Check for working C compiler: /usr/bin/cc
+[0.145s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.147s] -- Detecting C compiler ABI info
+[0.198s] -- Detecting C compiler ABI info - done
+[0.208s] -- Detecting C compile features
+[0.209s] -- Detecting C compile features - done
+[0.211s] -- Check for working CXX compiler: /usr/bin/c++
+[0.262s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.263s] -- Detecting CXX compiler ABI info
+[0.317s] -- Detecting CXX compiler ABI info - done
+[0.327s] -- Detecting CXX compile features
+[0.328s] -- Detecting CXX compile features - done
+[0.329s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.349s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.349s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.479s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.514s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.562s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.583s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.680s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.681s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.683s] -- Looking for pthread.h
+[0.735s] -- Looking for pthread.h - found
+[0.735s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.786s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.786s] -- Looking for pthread_create in pthreads
+[0.827s] -- Looking for pthread_create in pthreads - not found
+[0.827s] -- Looking for pthread_create in pthread
+[0.875s] -- Looking for pthread_create in pthread - found
+[0.876s] -- Found Threads: TRUE  
+[0.993s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.038s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.087s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.088s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.088s] -- Configured cppcheck include dirs: 
+[1.088s] -- Configured cppcheck exclude dirs and/or files: 
+[1.089s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.089s] -- Configured cpplint exclude dirs and/or files: 
+[1.089s] -- Added test 'lint_cmake' to check CMake code style
+[1.090s] -- Added test 'uncrustify' to check C / C++ code style
+[1.090s] -- Configured uncrustify additional arguments: 
+[1.090s] -- Added test 'xmllint' to check XML markup files
+[1.092s] -- Configuring done
+[1.097s] -- Generating done
+[1.098s] -- Build files have been written to: /home/hirofuji/workbench/ros2/src/build/test_node
+[1.105s] Invoked command in '/home/hirofuji/workbench/ros2/src/build/test_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hirofuji/workbench/ros2/src/test_node -DCMAKE_INSTALL_PREFIX=/home/hirofuji/workbench/ros2/src/install/test_node
+[1.106s] Invoking command in '/home/hirofuji/workbench/ros2/src/build/test_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hirofuji/workbench/ros2/src/build/test_node -- -j16 -l16
+[1.130s] [35m[1mScanning dependencies of target test_node[0m
+[1.155s] [ 50%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/node.cpp.o[0m
+[2.412s] [100%] [32m[1mLinking CXX executable test_node[0m
+[2.482s] [100%] Built target test_node
+[2.490s] Invoked command in '/home/hirofuji/workbench/ros2/src/build/test_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hirofuji/workbench/ros2/src/build/test_node -- -j16 -l16
+[2.510s] Invoking command in '/home/hirofuji/workbench/ros2/src/build/test_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hirofuji/workbench/ros2/src/build/test_node
+[2.515s] -- Install configuration: ""
+[2.515s] -- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/ament_index/resource_index/package_run_dependencies/test_node
+[2.515s] -- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/ament_index/resource_index/parent_prefix_path/test_node
+[2.515s] -- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/environment/ament_prefix_path.sh
+[2.515s] -- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/environment/ament_prefix_path.dsv
+[2.516s] -- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/environment/path.sh
+[2.516s] -- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/environment/path.dsv
+[2.516s] -- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/local_setup.bash
+[2.516s] -- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/local_setup.sh
+[2.516s] -- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/local_setup.zsh
+[2.516s] -- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/local_setup.dsv
+[2.516s] -- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/package.dsv
+[2.516s] -- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/ament_index/resource_index/packages/test_node
+[2.516s] -- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/cmake/test_nodeConfig.cmake
+[2.516s] -- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/cmake/test_nodeConfig-version.cmake
+[2.516s] -- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/package.xml
+[2.518s] Invoked command in '/home/hirofuji/workbench/ros2/src/build/test_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hirofuji/workbench/ros2/src/build/test_node

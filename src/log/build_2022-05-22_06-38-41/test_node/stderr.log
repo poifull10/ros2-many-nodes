@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:41 (file):
+  file INSTALL cannot find
+  "/home/hirofuji/workbench/ros2/src/build/test_node/test_node/test_node":
+  Not a directory.
+
+

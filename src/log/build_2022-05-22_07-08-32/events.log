@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.000226] (test_node_pkg) JobQueued: {'identifier': 'test_node_pkg', 'dependencies': OrderedDict()}
+[0.000291] (test_node_pkg) JobStarted: {'identifier': 'test_node_pkg'}
+[0.009030] (test_node_pkg) JobProgress: {'identifier': 'test_node_pkg', 'progress': 'cmake'}
+[0.009436] (test_node_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/hirofuji/workbench/ros2/src/test_node', '-DCMAKE_INSTALL_PREFIX=/home/hirofuji/workbench/ros2/src/install/test_node_pkg'], 'cwd': '/home/hirofuji/workbench/ros2/src/build/test_node_pkg', 'env': OrderedDict([('TMUX', '/tmp//tmux-0/default,396,0'), ('HOSTNAME', 'miracle.local'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/home/hirofuji/workbench/ros2/src/test_node'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/hirofuji/workbench/ros2/src/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/hirofuji/workbench/ros2/src/install/test_node:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/home/hirofuji/workbench/ros2/src/build/test_node_pkg'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/home/hirofuji/workbench/ros2/src/install/test_node:/opt/ros/foxy')]), 'shell': False}
+[0.046672] (test_node_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.081659] (test_node_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.084838] (test_node_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.098838] (-) TimerEvent: {}
+[0.129608] (test_node_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.130373] (test_node_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.176382] (test_node_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.185621] (test_node_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.185906] (test_node_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.187696] (test_node_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.198964] (-) TimerEvent: {}
+[0.238908] (test_node_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.239674] (test_node_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.297884] (test_node_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.299069] (-) TimerEvent: {}
+[0.309427] (test_node_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.309882] (test_node_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.311361] (test_node_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.327631] (test_node_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.327824] (test_node_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.399184] (-) TimerEvent: {}
+[0.444483] (test_node_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.474203] (test_node_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.478816] (test_node_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.499289] (-) TimerEvent: {}
+[0.526776] (test_node_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.547383] (test_node_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.599427] (-) TimerEvent: {}
+[0.604936] (test_node_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.645517] (test_node_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.646817] (test_node_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.647780] (test_node_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.693869] (test_node_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.694140] (test_node_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.699491] (-) TimerEvent: {}
+[0.743230] (test_node_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.743460] (test_node_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.783424] (test_node_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.783592] (test_node_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.799613] (-) TimerEvent: {}
+[0.833942] (test_node_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.834919] (test_node_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.899715] (-) TimerEvent: {}
+[0.955522] (test_node_pkg) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[0.999818] (-) TimerEvent: {}
+[1.040419] (test_node_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.045913] (test_node_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.047106] (test_node_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/hirofuji/workbench/ros2/src/build/test_node_pkg\n'}
+[1.051538] (test_node_pkg) CommandEnded: {'returncode': 0}
+[1.053340] (test_node_pkg) JobProgress: {'identifier': 'test_node_pkg', 'progress': 'build'}
+[1.053487] (test_node_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hirofuji/workbench/ros2/src/build/test_node_pkg', '--', '-j16', '-l16'], 'cwd': '/home/hirofuji/workbench/ros2/src/build/test_node_pkg', 'env': OrderedDict([('TMUX', '/tmp//tmux-0/default,396,0'), ('HOSTNAME', 'miracle.local'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/home/hirofuji/workbench/ros2/src/test_node'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/hirofuji/workbench/ros2/src/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/hirofuji/workbench/ros2/src/install/test_node:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/home/hirofuji/workbench/ros2/src/build/test_node_pkg'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/home/hirofuji/workbench/ros2/src/install/test_node:/opt/ros/foxy')]), 'shell': False}
+[1.078813] (test_node_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_node\x1b[0m\n'}
+[1.099927] (-) TimerEvent: {}
+[1.106463] (test_node_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/test_node.dir/src/node.cpp.o\x1b[0m\n'}
+[1.200043] (-) TimerEvent: {}
+[1.300368] (-) TimerEvent: {}
+[1.400717] (-) TimerEvent: {}
+[1.501083] (-) TimerEvent: {}
+[1.601440] (-) TimerEvent: {}
+[1.701790] (-) TimerEvent: {}
+[1.802125] (-) TimerEvent: {}
+[1.902458] (-) TimerEvent: {}
+[2.002805] (-) TimerEvent: {}
+[2.103142] (-) TimerEvent: {}
+[2.203484] (-) TimerEvent: {}
+[2.303823] (-) TimerEvent: {}
+[2.404176] (-) TimerEvent: {}
+[2.504533] (-) TimerEvent: {}
+[2.604869] (-) TimerEvent: {}
+[2.705219] (-) TimerEvent: {}
+[2.805504] (-) TimerEvent: {}
+[2.905834] (-) TimerEvent: {}
+[3.006181] (-) TimerEvent: {}
+[3.106515] (-) TimerEvent: {}
+[3.109542] (test_node_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_node\x1b[0m\n'}
+[3.206636] (-) TimerEvent: {}
+[3.207776] (test_node_pkg) StdoutLine: {'line': b'[100%] Built target test_node\n'}
+[3.214934] (test_node_pkg) CommandEnded: {'returncode': 0}
+[3.230136] (test_node_pkg) JobProgress: {'identifier': 'test_node_pkg', 'progress': 'install'}
+[3.236246] (test_node_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hirofuji/workbench/ros2/src/build/test_node_pkg'], 'cwd': '/home/hirofuji/workbench/ros2/src/build/test_node_pkg', 'env': OrderedDict([('TMUX', '/tmp//tmux-0/default,396,0'), ('HOSTNAME', 'miracle.local'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/home/hirofuji/workbench/ros2/src/test_node'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/hirofuji/workbench/ros2/src/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/hirofuji/workbench/ros2/src/install/test_node:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/home/hirofuji/workbench/ros2/src/build/test_node_pkg'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/home/hirofuji/workbench/ros2/src/install/test_node:/opt/ros/foxy')]), 'shell': False}
+[3.241489] (test_node_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.241761] (test_node_pkg) StdoutLine: {'line': b'-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node_pkg/lib/test_node_pkg/test_node\n'}
+[3.242475] (test_node_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/hirofuji/workbench/ros2/src/install/test_node_pkg/lib/test_node_pkg/test_node" to ""\n'}
+[3.242814] (test_node_pkg) StdoutLine: {'line': b'-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node_pkg/share/ament_index/resource_index/package_run_dependencies/test_node_pkg\n'}
+[3.243101] (test_node_pkg) StdoutLine: {'line': b'-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node_pkg/share/ament_index/resource_index/parent_prefix_path/test_node_pkg\n'}
+[3.243285] (test_node_pkg) StdoutLine: {'line': b'-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node_pkg/share/test_node_pkg/environment/ament_prefix_path.sh\n'}
+[3.243401] (test_node_pkg) StdoutLine: {'line': b'-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node_pkg/share/test_node_pkg/environment/ament_prefix_path.dsv\n'}
+[3.243558] (test_node_pkg) StdoutLine: {'line': b'-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node_pkg/share/test_node_pkg/environment/path.sh\n'}
+[3.243684] (test_node_pkg) StdoutLine: {'line': b'-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node_pkg/share/test_node_pkg/environment/path.dsv\n'}
+[3.243777] (test_node_pkg) StdoutLine: {'line': b'-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node_pkg/share/test_node_pkg/local_setup.bash\n'}
+[3.243912] (test_node_pkg) StdoutLine: {'line': b'-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node_pkg/share/test_node_pkg/local_setup.sh\n'}
+[3.243982] (test_node_pkg) StdoutLine: {'line': b'-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node_pkg/share/test_node_pkg/local_setup.zsh\n'}
+[3.244050] (test_node_pkg) StdoutLine: {'line': b'-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node_pkg/share/test_node_pkg/local_setup.dsv\n'}
+[3.244135] (test_node_pkg) StdoutLine: {'line': b'-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node_pkg/share/test_node_pkg/package.dsv\n'}
+[3.244294] (test_node_pkg) StdoutLine: {'line': b'-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node_pkg/share/ament_index/resource_index/packages/test_node_pkg\n'}
+[3.244441] (test_node_pkg) StdoutLine: {'line': b'-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node_pkg/share/test_node_pkg/cmake/test_node_pkgConfig.cmake\n'}
+[3.244507] (test_node_pkg) StdoutLine: {'line': b'-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node_pkg/share/test_node_pkg/cmake/test_node_pkgConfig-version.cmake\n'}
+[3.244600] (test_node_pkg) StdoutLine: {'line': b'-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node_pkg/share/test_node_pkg/package.xml\n'}
+[3.245948] (test_node_pkg) CommandEnded: {'returncode': 0}
+[3.277389] (test_node_pkg) JobEnded: {'identifier': 'test_node_pkg', 'rc': 0}
+[3.277943] (-) EventReactorShutdown: {}

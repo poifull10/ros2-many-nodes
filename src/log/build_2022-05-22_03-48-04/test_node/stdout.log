@@ -1,0 +1,57 @@
+/usr/bin/cmake -S/home/hirofuji/workbench/ros2/src/test_node -B/home/hirofuji/workbench/ros2/src/build/test_node --check-build-system CMakeFiles/Makefile.cmake 0
+Re-run cmake file: Makefile older than: /home/hirofuji/workbench/ros2/src/test_node/CMakeLists.txt
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hirofuji/workbench/ros2/src/build/test_node
+/usr/bin/cmake -E cmake_progress_start /home/hirofuji/workbench/ros2/src/build/test_node/CMakeFiles /home/hirofuji/workbench/ros2/src/build/test_node/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/hirofuji/workbench/ros2/src/build/test_node'
+/usr/bin/make -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/depend
+make[2]: Entering directory '/home/hirofuji/workbench/ros2/src/build/test_node'
+cd /home/hirofuji/workbench/ros2/src/build/test_node && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/hirofuji/workbench/ros2/src/test_node /home/hirofuji/workbench/ros2/src/test_node /home/hirofuji/workbench/ros2/src/build/test_node /home/hirofuji/workbench/ros2/src/build/test_node /home/hirofuji/workbench/ros2/src/build/test_node/CMakeFiles/test_node.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/hirofuji/workbench/ros2/src/build/test_node'
+/usr/bin/make -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/build
+make[2]: Entering directory '/home/hirofuji/workbench/ros2/src/build/test_node'
+[ 50%] [32m[1mLinking CXX executable test_node[0m
+/usr/bin/cmake -E cmake_link_script CMakeFiles/test_node.dir/link.txt --verbose=1
+/usr/bin/c++     CMakeFiles/test_node.dir/src/node.cpp.o  -o test_node  -Wl,-rpath,/opt/ros/foxy/lib:/opt/ros/foxy/lib/x86_64-linux-gnu /opt/ros/foxy/lib/libcomponent_manager.so /opt/ros/foxy/lib/librclcpp.so /opt/ros/foxy/lib/liblibstatistics_collector.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librcl.so /opt/ros/foxy/lib/librmw_implementation.so /opt/ros/foxy/lib/librmw.so /opt/ros/foxy/lib/librcl_logging_spdlog.so /usr/lib/x86_64-linux-gnu/libspdlog.so.1.5.0 -lpthread /opt/ros/foxy/lib/librcl_yaml_param_parser.so /opt/ros/foxy/lib/libyaml.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libtracetools.so /opt/ros/foxy/lib/libament_index_cpp.so /opt/ros/foxy/lib/libclass_loader.so /opt/ros/foxy/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0 /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_generator_c.so /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_c.so /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_c.so /opt/ros/foxy/lib/librcpputils.so /opt/ros/foxy/lib/librosidl_runtime_c.so /opt/ros/foxy/lib/librcutils.so -ldl 
+make[2]: Leaving directory '/home/hirofuji/workbench/ros2/src/build/test_node'
+[100%] Built target test_node
+make[1]: Leaving directory '/home/hirofuji/workbench/ros2/src/build/test_node'
+/usr/bin/cmake -E cmake_progress_start /home/hirofuji/workbench/ros2/src/build/test_node/CMakeFiles 0
+-- Install configuration: ""
+-- Up-to-date: /home/hirofuji/workbench/ros2/src/install/test_node/share/ament_index/resource_index/package_run_dependencies/test_node
+-- Up-to-date: /home/hirofuji/workbench/ros2/src/install/test_node/share/ament_index/resource_index/parent_prefix_path/test_node
+-- Up-to-date: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/environment/ament_prefix_path.sh
+-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/environment/path.sh
+-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/environment/path.dsv
+-- Up-to-date: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/local_setup.bash
+-- Up-to-date: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/local_setup.sh
+-- Up-to-date: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/local_setup.zsh
+-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/local_setup.dsv
+-- Installing: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/package.dsv
+-- Up-to-date: /home/hirofuji/workbench/ros2/src/install/test_node/share/ament_index/resource_index/packages/test_node
+-- Up-to-date: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/cmake/test_nodeConfig.cmake
+-- Up-to-date: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/cmake/test_nodeConfig-version.cmake
+-- Up-to-date: /home/hirofuji/workbench/ros2/src/install/test_node/share/test_node/package.xml
