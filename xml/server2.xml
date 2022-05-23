@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<dds>
-    <profiles xmlns="http://www.eprosima.com/XMLSchemas/fastRTPS_Profiles" >
-        <participant profile_name="server_profile">
-            <rtps>
-                <builtin>
-                    <discovery_config>
-                        <discoveryProtocol>SERVER</discoveryProtocol>
-                        <discoveryServersList>
-                            <RemoteServer>
-                                <metatrafficUnicastLocatorList>
-                                    <locator>
-                                        <udpv4>
-                                            <address>127.0.0.1</address>
-                                            <port>11811</port>
-                                        </udpv4>
-                                    </locator>
-                                </metatrafficUnicastLocatorList>
-                            </RemoteServer>
-                        </discoveryServersList>
-                    </discovery_config>
-                </builtin>
-            </rtps>
-        </participant>
-    </profiles>
-</dds>
+<profiles xmlns="http://www.eprosima.com/XMLSchemas/fastRTPS_Profiles">
+    <participant profile_name="server_profile">
+        <rtps>
+        <builtin>
+            <!-- <discovery_config>
+                <discoveryProtocol>CLIENT</discoveryProtocol>
+            </discovery_config> -->
+        </builtin>
+        <port>
+            <portBase>7400</portBase>
+            <domainIDGain>1000</domainIDGain>
+            <participantIDGain>2</participantIDGain>
+            <offsetd0>0</offsetd0>
+            <offsetd1>1</offsetd1>
+            <offsetd2>2</offsetd2>
+            <offsetd3>3</offsetd3>
+        </port>
+        </rtps>
+    </participant>
+    <transport_descriptors>
+        <transport_descriptor>
+            <type>TCPv4</type>
+            <transport_id>ExampleTransportId1</transport_id>
+            <max_logical_port>400</max_logical_port>
+            <maxInitialPeersRange>100</maxInitialPeersRange>
+            <TTL>250</TTL>
+            <keep_alive_frequency_ms>5000</keep_alive_frequency_ms>
+            <keep_alive_timeout_ms>25000</keep_alive_timeout_ms>
+            <healthy_check_timeout_ms>25000</healthy_check_timeout_ms>
+        </transport_descriptor>
+    </transport_descriptors>
+</profiles>
